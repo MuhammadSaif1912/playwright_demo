@@ -18,7 +18,7 @@ test('Scenario 2: User places an order and checks out successfully', async ({ pa
 
   await cartPage.clickCheckout();
 
-  await checkoutPage.fillCheckoutInfo('Muhammad', 'Saif', '03123456789');
+  await checkoutPage.fillCheckoutInfo('Muhammad', 'Saif', '44000');
   await checkoutPage.finishOrder();
 
   await checkoutPage.verifySuccessMessage();
